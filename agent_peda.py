@@ -99,8 +99,6 @@ async def health_check():
         health_status["status"] = "degraded"
     
     return health_status
-
-
 # =================================================================
 # 4. ORCHESTRATION (LOGIQUE MÉTIER)
 # =================================================================
